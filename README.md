@@ -41,7 +41,7 @@ var layerIGNScanStd = "GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD";
 // The WMTS URL 
 var url = "http://wxs.ign.fr/" + ignKey + "/geoportail/wmts";
 
-var ign = new L.TileLayer.WMTS( url ,
+var ign = new L.tileLayer.wmts( url ,
                                {
                                    layer: layerIGNScanStd,
                                    style: "normal",
